@@ -13,16 +13,16 @@ agent = create_agent(
     )
 )
 
-while True:
-    query = input("\nYou: ")
-    if query.lower() == 'exit':
-        break
-    result = agent.invoke({
-    "messages": [
-        {
-            "role": "user",
-            "content": query
-        }
-    ]
-})
-    print(result["messages"][-1].content)
+# while True:
+#     query = input("\nYou: ")
+#     if query.lower() == 'exit':
+#         break
+#     result = agent.invoke({
+#     "messages": [
+#         {
+#             "role": "user",
+#             "content": query
+#         }
+#     ]
+# })
+#     print(result["messages"][-1].content)
