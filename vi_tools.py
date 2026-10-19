@@ -24,4 +24,4 @@ def get_datetime() -> str:
     """current time"""
     return datetime.now().strftime("%y-%m-%d %H:%M:%S")
 
-all_tools = [rag_tool,get_datetime]
+all_tools = [rag_tool,get_datetime]~
